@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+ frontend:
+   build: ./gif-compression-frontend
+   ports:
+     - "80:80"
+   depends_on:
+     - backend
+   networks:
+     - app-network
+
+ backend:
+   build:  ./gif-compression-backend
+   ports:
+     - "3005:3005"
+   networks:
+     - app-network
+
+networks:
+ app-network:
+   driver: bridge

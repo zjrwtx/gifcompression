@@ -2,7 +2,8 @@
 gif压缩 一行命令docker部署
 
 ## 演示截图
-![image](https://github.com/zjrwtxdaydayup/gif_compression/assets/139489333/84734988-7564-4ffd-815d-f4bd8886941a)
+![image](https://github.com/zjrwtx/gifcompression/assets/86822589/1038952f-79d5-45be-9060-43176f6b6ee2)
+
 
 
 
